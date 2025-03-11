@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%; 
+    
+    display: grid;
+    place-items: center;
+              
+}
+
+body {
+    background-color: #F4D04E;
+}
+
+main {
+    background-color: white;
+    width: 384px;
+    height: 522px;
+    border-radius: 20px;
+    padding: 14px 14px;
+    box-shadow: 7px 7px;
+
+
+
+}
+
+picture {
+    background-image: url('./assets/images/illustration-article.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    border-radius: 10px;
+    height: 200px;
+  
+
+}
+
+.ilustracao {
+    padding: 24px;
+}
+img {
+    border-radius: 10px; 
+}
+
+p {
+    font-family: "Figtree", sans-serif;;
+}
+
+.botão {
+    background-color: hsl(47, 88%, 63%);
+    width: 82px;
+    height: 25px;
+    padding: 4px 12px;
+
+    color: hsl(0, 0%, 7%);
+    text-align: center;
+    border-radius: 4px;
+
+    font-weight: bold;
+    align-content: center;
+
+    margin-top: 24px;
+}
+
+.publicação {
+    font-weight: 14px;
+}
+
+h1 {
+    color: #F4D04E;
+    font-weight: 24px;
+}
+
+.texto {
+    color: hsl(0, 0%, 42%);
+    font-weight: 16px;
+}
+
+
+.nome {
+    background-image: url('./assets/images/image-avatar.webp');
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#gregor {
+   border: 2px solid red;
+   width: 85px;
+   height: 21px;
+
+   position: 44px;
+}
+  
+
+footer {
+    height: 0px;
+}
