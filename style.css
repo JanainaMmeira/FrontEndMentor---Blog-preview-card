@@ -23,31 +23,27 @@ main {
     padding: 14px 14px;
     box-shadow: 7px 7px;
 
-
-
 }
 
 picture {
+    height: 200px;
     background-image: url('./assets/images/illustration-article.svg') ;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
 
+
     border-radius: 10px;
-    height: 200px;
-  
-
 }
 
-.ilustracao {
-    padding: 24px;
-}
+
 img {
     border-radius: 10px; 
 }
 
 p {
-    font-family: "Figtree", sans-serif;;
+    font-family: "Figtree", sans-serif;
+    line-height: 1.8;
 }
 
 .botão {
@@ -81,21 +77,37 @@ h1 {
 }
 
 
-.nome {
-    background-image: url('./assets/images/image-avatar.webp');
-    background-repeat: no-repeat;
-    margin: 0px;
-}
-
-#gregor {
-   border: 2px solid red;
-   width: 85px;
-   height: 21px;
-
-   position: 44px;
+div {
+    height: 32px;
+    display: flex; /* Ativa o Flexbox */
+    align-items: center;
 }
   
 
+.avatar img {
+    height: 32px;
+    
+}
+
+div.container  > div.nome {
+    font-size: 14px;
+    font-weight: bolder;
+    color: hsl(0, 0%, 7%);
+    align-items: center ;
+}
+
+.nome {
+    padding-left: 12px;
+}
+
+
 footer {
     height: 0px;
+    margin: 0;
+    font-size: 12px;
+    color: hsl(0, 0%, 42%);
+}
+
+footer a:hover {
+    text-decoration: none;
 }

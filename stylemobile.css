@@ -1,0 +1,101 @@
+/* Media Query para telas de celular (até 480px) */
+@media screen and (max-width: 480px) {
+    main {
+        width: 50%;    
+        height: auto; 
+        padding: 10px; 
+    }
+
+    picture {
+        height: 150px; 
+    }
+
+    .botão {
+        width: 45px;
+        height: 21px;
+        padding: 4px 8px; 
+        font-size: 12px; 
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 10px; 
+    }
+}
+
+/* Media Query para tablets (de 481px até 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    main {
+        width: 60%; 
+        height: auto;
+        padding: 12px;
+    }
+
+    picture {
+        height: 180px; 
+    }
+
+    .botão {
+        width: auto;
+        padding: 4px 10px;
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 22px; 
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
+
+/* Media Query para tablets (de 769px até 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    main {
+        width: 50%; 
+        height: auto; 
+        padding: 15px; 
+    }
+
+    picture {
+        height: 250px; 
+    }
+
+    .botão {
+        padding: 6px 14px;
+        font-size: 14px; 
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px; 
+    }
+
+    footer {
+        font-size: 14px; 
+    }
+
+    .avatar img {
+        height: 40px; 
+    }
+
+    .nome {
+        font-size: 16px; 
+        padding-left: 14px; 
+    }
+}
