@@ -31,39 +31,9 @@
     }
 }
 
-/* Media Query para tablets (de 481px até 768px) */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    main {
-        width: 70%; 
-        height: auto;
-        padding: 12px;
-    }
-
-    picture {
-        height: 180px; 
-    }
-
-    .botão {
-        width: auto;
-        padding: 4px 10px;
-        font-size: 13px;
-    }
-
-    h1 {
-        font-size: 22px; 
-    }
-
-    p {
-        font-size: 15px;
-    }
-
-    footer {
-        font-size: 10px;
-    }
-}
 
 /* Media Query para tablets (de 769px até 1024px) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) {
     main {
         width: 90%; 
         height: auto; 
