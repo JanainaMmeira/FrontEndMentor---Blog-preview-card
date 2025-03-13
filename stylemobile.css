@@ -34,7 +34,7 @@
 /* Media Query para tablets (de 481px até 768px) */
 @media screen and (min-width: 481px) and (max-width: 768px) {
     main {
-        width: 60%; 
+        width: 70%; 
         height: auto;
         padding: 12px;
     }
@@ -65,7 +65,7 @@
 /* Media Query para tablets (de 769px até 1024px) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     main {
-        width: 50%; 
+        width: 90%; 
         height: auto; 
         padding: 15px; 
     }
