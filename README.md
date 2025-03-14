@@ -26,6 +26,5 @@ Ver estados de hover e foco para todos os elementos interativos na página
 
 ## Autor
 
-- Website - [Add your name here]([https://www.your-site.com](https://janainammeira.github.io/FrontEndMentor---Blog-preview-card/))
 - Frontend Mentor - [@JanainaMmeira]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/JanainaMmeira))
 
