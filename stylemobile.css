@@ -19,11 +19,11 @@
 
     h1 {
         color: black;
-        font-size: 20px; 
+        font-size: 17px; 
     }
 
     p {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     footer {
@@ -50,15 +50,15 @@
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     p {
-        font-size: 18px; 
+        font-size: 17px; 
     }
 
     footer {
-        font-size: 14px; 
+        font-size: 10px; 
     }
 
     .avatar img {
